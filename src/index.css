@@ -1,0 +1,51 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.graphcontainer {
+  flex: 1 1 auto;
+}
+
+.graphDebug {
+  width: 30%;
+}
+
+.savebutton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 999;
+}
+
+.loadbutton {
+  position: absolute;
+  top: 20px;
+  left: 110px;
+  z-index: 999;
+}
+
+.load-glb-port-container {
+  display: flex;
+}
+
+.load-glb-port-inputs {
+  flex-grow: 1;
+  background: linear-gradient(to bottom, #6c7073, #838a8e);
+  width: 100%;
+  border: 1px solid #3c3e40;
+  border-radius: 4px;
+  font-size: 13px;
+  padding: 5px;
+  outline: none;
+}
